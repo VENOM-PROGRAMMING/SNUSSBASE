@@ -25,11 +25,11 @@ pip3 install -r requirements.txt
 ```
 
 2. Conigure settings
-<details>
+
   a) Add snussbase api in config.json
   b) Add leakchecker api in config.json
   b) Add leakchecker proxy in config.json
-</details>
+
 
 Finally!
 

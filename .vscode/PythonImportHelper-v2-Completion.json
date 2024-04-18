@@ -1,0 +1,543 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "platform",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "platform",
+        "description": "platform",
+        "detail": "platform",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "Pool",
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "isExtraImport": true,
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "GET_PASSWORD",
+        "importPath": "passwrod",
+        "description": "passwrod",
+        "isExtraImport": true,
+        "detail": "passwrod",
+        "documentation": {}
+    },
+    {
+        "label": "PrettyTable",
+        "importPath": "prettytable",
+        "description": "prettytable",
+        "isExtraImport": true,
+        "detail": "prettytable",
+        "documentation": {}
+    },
+    {
+        "label": "PrettyTable",
+        "importPath": "prettytable",
+        "description": "prettytable",
+        "isExtraImport": true,
+        "detail": "prettytable",
+        "documentation": {}
+    },
+    {
+        "label": "LeakCheckAPI",
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "isExtraImport": true,
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "LeakCheckAPI",
+        "kind": 6,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "class LeakCheckAPI:\n\theaders = {\"User-Agent\": \"PyLCAPI/{}, Python {} on {}\".format(version, sys.version.split(\" \")[0], platform.version())}\n\t'''\n\tSet initial variables\n\t'''\n\tdef __init__(self):\n\t\tself.cfgname = \".pylcapi\"\n\t\tself.cfgpath = os.path.expanduser('~') + \"/\" + self.cfgname\n\t\tself.config = self.__getCfg()\n\t\tself.url = \"https://leakcheck.io\"",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "version",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "version = \"1.0.2\"\nclass LeakCheckAPI:\n\theaders = {\"User-Agent\": \"PyLCAPI/{}, Python {} on {}\".format(version, sys.version.split(\" \")[0], platform.version())}\n\t'''\n\tSet initial variables\n\t'''\n\tdef __init__(self):\n\t\tself.cfgname = \".pylcapi\"\n\t\tself.cfgpath = os.path.expanduser('~') + \"/\" + self.cfgname\n\t\tself.config = self.__getCfg()",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\theaders",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\theaders = {\"User-Agent\": \"PyLCAPI/{}, Python {} on {}\".format(version, sys.version.split(\" \")[0], platform.version())}\n\t'''\n\tSet initial variables\n\t'''\n\tdef __init__(self):\n\t\tself.cfgname = \".pylcapi\"\n\t\tself.cfgpath = os.path.expanduser('~') + \"/\" + self.cfgname\n\t\tself.config = self.__getCfg()\n\t\tself.url = \"https://leakcheck.io\"\n\t\tself.key = self.config.get(\"key\")",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.cfgname",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tself.cfgname = \".pylcapi\"\n\t\tself.cfgpath = os.path.expanduser('~') + \"/\" + self.cfgname\n\t\tself.config = self.__getCfg()\n\t\tself.url = \"https://leakcheck.io\"\n\t\tself.key = self.config.get(\"key\")\n\t\tself.proxy = None\n\t'''\n\tLoad or create a config file with an API key and proxy\n\t* since 1.0.2: created inside a home folder instead of a working directory\n\t'''",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.cfgpath",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tself.cfgpath = os.path.expanduser('~') + \"/\" + self.cfgname\n\t\tself.config = self.__getCfg()\n\t\tself.url = \"https://leakcheck.io\"\n\t\tself.key = self.config.get(\"key\")\n\t\tself.proxy = None\n\t'''\n\tLoad or create a config file with an API key and proxy\n\t* since 1.0.2: created inside a home folder instead of a working directory\n\t'''\n\tdef __getCfg(self):",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.config",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tself.config = self.__getCfg()\n\t\tself.url = \"https://leakcheck.io\"\n\t\tself.key = self.config.get(\"key\")\n\t\tself.proxy = None\n\t'''\n\tLoad or create a config file with an API key and proxy\n\t* since 1.0.2: created inside a home folder instead of a working directory\n\t'''\n\tdef __getCfg(self):\n\t\tif os.path.isfile(self.cfgpath):",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.url",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tself.url = \"https://leakcheck.io\"\n\t\tself.key = self.config.get(\"key\")\n\t\tself.proxy = None\n\t'''\n\tLoad or create a config file with an API key and proxy\n\t* since 1.0.2: created inside a home folder instead of a working directory\n\t'''\n\tdef __getCfg(self):\n\t\tif os.path.isfile(self.cfgpath):\n\t\t\twith open(self.cfgpath) as cfg:",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.key",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tself.key = self.config.get(\"key\")\n\t\tself.proxy = None\n\t'''\n\tLoad or create a config file with an API key and proxy\n\t* since 1.0.2: created inside a home folder instead of a working directory\n\t'''\n\tdef __getCfg(self):\n\t\tif os.path.isfile(self.cfgpath):\n\t\t\twith open(self.cfgpath) as cfg:\n\t\t\t\treturn json.load(cfg)",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.proxy",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tself.proxy = None\n\t'''\n\tLoad or create a config file with an API key and proxy\n\t* since 1.0.2: created inside a home folder instead of a working directory\n\t'''\n\tdef __getCfg(self):\n\t\tif os.path.isfile(self.cfgpath):\n\t\t\twith open(self.cfgpath) as cfg:\n\t\t\t\treturn json.load(cfg)\n\t\telse:",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\t\tdata",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\t\tdata = {'key': '', 'proxy': ''}\n\t\t\t\tjson.dump(data, cfg)\n\t\t\t\treturn data\n\t'''\n\tFunction to set a proxy\n\tHTTP/HTTPS/SOCKS4/SOCKS5 supported\n\tHandled by requests[socks], requests[proxy]\n\t'''\n\tdef set_proxy(self, proxy):\n\t\ttry:",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tself.proxy",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\tself.proxy = proxy\n\t\t\tresponse = requests.get(\"https://api.infoip.io/\", proxies = {'https': self.proxy})\n\t\t\tif response.status_code == 200:\n\t\t\t\treturn True, json.loads(response.content)['ip']\n\t\t\telse:\n\t\t\t\treturn False, response.status_code\n\t\texcept Exception as e:\n\t\t\treturn False, str(e)\n\t'''\n\tFunction to set an API key",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresponse",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\tresponse = requests.get(\"https://api.infoip.io/\", proxies = {'https': self.proxy})\n\t\t\tif response.status_code == 200:\n\t\t\t\treturn True, json.loads(response.content)['ip']\n\t\t\telse:\n\t\t\t\treturn False, response.status_code\n\t\texcept Exception as e:\n\t\t\treturn False, str(e)\n\t'''\n\tFunction to set an API key\n\t'''",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.key",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tself.key = key\n\t'''\n\tMain function\n\tSends a request to the server after everything else is prepared\n\t* since 1.0.1: query and lookup type now passed via function parameters\n\t''' \n\tdef lookup(self, query, lookup_type = \"auto\"):\n\t\tassert(self.key != \"\"), f\"A key is missing, use LeakCheckAPI.set_key() or specify it in config ({self.cfgpath})\"\n\t\tdata = {'key': self.key, 'type': lookup_type, \"check\": query}\n\t\trequest = requests.get(self.url + \"/api\",",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdata",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tdata = {'key': self.key, 'type': lookup_type, \"check\": query}\n\t\trequest = requests.get(self.url + \"/api\",\n\t\t\tdata, \n\t\t\theaders = self.headers,\n\t\t\tproxies = {'https': self.proxy}\n\t\t)\n\t\tstatus_code = request.status_code\n\t\tassert (status_code == 200), f\"Invalid response code ({status_code}) instead of 200\"\n\t\tresult = request.json()\n\t\tif result.get(\"success\") == False:",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\trequest",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\trequest = requests.get(self.url + \"/api\",\n\t\t\tdata, \n\t\t\theaders = self.headers,\n\t\t\tproxies = {'https': self.proxy}\n\t\t)\n\t\tstatus_code = request.status_code\n\t\tassert (status_code == 200), f\"Invalid response code ({status_code}) instead of 200\"\n\t\tresult = request.json()\n\t\tif result.get(\"success\") == False:\n\t\t\tassert (result.get(\"error\") == \"Not found\"), request.json().get(\"error\")",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\theaders",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\theaders = self.headers,\n\t\t\tproxies = {'https': self.proxy}\n\t\t)\n\t\tstatus_code = request.status_code\n\t\tassert (status_code == 200), f\"Invalid response code ({status_code}) instead of 200\"\n\t\tresult = request.json()\n\t\tif result.get(\"success\") == False:\n\t\t\tassert (result.get(\"error\") == \"Not found\"), request.json().get(\"error\")\n\t\t\treturn []\n\t\telse:",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tproxies",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\tproxies = {'https': self.proxy}\n\t\t)\n\t\tstatus_code = request.status_code\n\t\tassert (status_code == 200), f\"Invalid response code ({status_code}) instead of 200\"\n\t\tresult = request.json()\n\t\tif result.get(\"success\") == False:\n\t\t\tassert (result.get(\"error\") == \"Not found\"), request.json().get(\"error\")\n\t\t\treturn []\n\t\telse:\n\t\t\treturn result",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tstatus_code",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tstatus_code = request.status_code\n\t\tassert (status_code == 200), f\"Invalid response code ({status_code}) instead of 200\"\n\t\tresult = request.json()\n\t\tif result.get(\"success\") == False:\n\t\t\tassert (result.get(\"error\") == \"Not found\"), request.json().get(\"error\")\n\t\t\treturn []\n\t\telse:\n\t\t\treturn result\n\t'''\n\tFunction to get your account limits",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tresult",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tresult = request.json()\n\t\tif result.get(\"success\") == False:\n\t\t\tassert (result.get(\"error\") == \"Not found\"), request.json().get(\"error\")\n\t\t\treturn []\n\t\telse:\n\t\t\treturn result\n\t'''\n\tFunction to get your account limits\n\t'''\n\tdef getLimits(self):",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdata",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\tdata = {'key': self.key, 'type': 'limits'}\n\t\trequest = requests.get(self.url + \"/api\",\n\t\t\tdata, \n\t\t\theaders = self.headers,\n\t\t\tproxies = {'https': self.proxy}\n\t\t)\n\t\tassert (request.json().get(\"success\") == True), request.json().get(\"error\")\n\t\treturn request.json().get(\"limits\")\n\t'''\n\tFunction to get your IP",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\trequest",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\trequest = requests.get(self.url + \"/api\",\n\t\t\tdata, \n\t\t\theaders = self.headers,\n\t\t\tproxies = {'https': self.proxy}\n\t\t)\n\t\tassert (request.json().get(\"success\") == True), request.json().get(\"error\")\n\t\treturn request.json().get(\"limits\")\n\t'''\n\tFunction to get your IP\n\tUseful when you link an IP for the first time",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\theaders",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\theaders = self.headers,\n\t\t\tproxies = {'https': self.proxy}\n\t\t)\n\t\tassert (request.json().get(\"success\") == True), request.json().get(\"error\")\n\t\treturn request.json().get(\"limits\")\n\t'''\n\tFunction to get your IP\n\tUseful when you link an IP for the first time\n\t'''\n\tdef getIP(self):",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tproxies",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\tproxies = {'https': self.proxy}\n\t\t)\n\t\tassert (request.json().get(\"success\") == True), request.json().get(\"error\")\n\t\treturn request.json().get(\"limits\")\n\t'''\n\tFunction to get your IP\n\tUseful when you link an IP for the first time\n\t'''\n\tdef getIP(self):\n\t\treturn requests.post(self.url + \"/ip\", ",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\theaders",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\theaders = self.headers, \n\t\t\tproxies = {'https': self.proxy}\n\t\t).text\n\t'''\n\tFunction to get software version\n\tUsed in CLI\n\t'''\n\tdef getVersion(self):\n\t\treturn version",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tproxies",
+        "kind": 5,
+        "importPath": "leak_api",
+        "description": "leak_api",
+        "peekOfCode": "\t\t\tproxies = {'https': self.proxy}\n\t\t).text\n\t'''\n\tFunction to get software version\n\tUsed in CLI\n\t'''\n\tdef getVersion(self):\n\t\treturn version",
+        "detail": "leak_api",
+        "documentation": {}
+    },
+    {
+        "label": "return_info_breanch",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def return_info_breanch():\n    try:\n        with open('search_branch.json', 'r',encoding='utf-8') as f:\n            data_josn  = json.load(f)\n        return data_josn    \n    except Exception as e:\n        return False\ndef config_itemps():\n    try:\n        with open('config.json', 'r',encoding='utf-8') as f:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "config_itemps",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def config_itemps():\n    try:\n        with open('config.json', 'r',encoding='utf-8') as f:\n            json_data  = json.load(f)\n        return json_data    \n    except Exception as e:\n        return False\nT = PrettyTable()\ninit()\ntimeout = 1",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "get_timeout",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def get_timeout():\n    while True:\n        timeout = input(\"Timeout: \")\n        if timeout.isnumeric():\n            timeout = int(timeout)\n            if 0 < timeout <= 10:\n                return timeout\n            else:\n                return False\n        else:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_email",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def is_valid_email(email):\n        regex = r'^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$'\n        if re.match(regex, email):\n            return True\n        else:\n            return False\ndef get_useproxy():\n    while True:\n        use_proxy = input(f'Use proxy ? y/n  ')\n        if use_proxy == 'y':",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "get_useproxy",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def get_useproxy():\n    while True:\n        use_proxy = input(f'Use proxy ? y/n  ')\n        if use_proxy == 'y':\n            return True\n        elif use_proxy == 'n':\n            return False\n        else:\n            pass\ndef clear_console():",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "clear_console",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def clear_console():\n    os.system('cls' if os.name == 'nt' else 'clear')\ndef is_valid_email(email):\n        regex = r'^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$'\n        if re.match(regex, email):\n            return True\n        else:\n            return False\ndef send(username, counter, u_proxy):\n    mx_ip = 'NONE'",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_email",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def is_valid_email(email):\n        regex = r'^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$'\n        if re.match(regex, email):\n            return True\n        else:\n            return False\ndef send(username, counter, u_proxy):\n    mx_ip = 'NONE'\n    err = 1\n    while True:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "send",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def send(username, counter, u_proxy):\n    mx_ip = 'NONE'\n    err = 1\n    while True:\n        err+=1\n        if u_proxy:\n            response = requests.get(\"https://api.infoip.io/\", proxies=proxies)\n        else:\n            response = requests.get(\"https://api.infoip.io/\")\n        if response.status_code == 200:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "remove_ansi",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def remove_ansi(text):\n    ansi_escape = re.compile(r'\\x1B(?:[@-Z\\\\-_]|\\[[0-?]*[ -/]*[@-~])')\n    return ansi_escape.sub('', text)\ndef main(u_proxy):\n    with open (\"username.txt\", \"r\", encoding=\"utf-8\") as f:\n        counter =1\n        for line in f:\n            try:\n                line = line.strip()\n                send(line,counter, u_proxy)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main(u_proxy):\n    with open (\"username.txt\", \"r\", encoding=\"utf-8\") as f:\n        counter =1\n        for line in f:\n            try:\n                line = line.strip()\n                send(line,counter, u_proxy)\n                with open('LOGS/raport_snuss.txt', 'a') as f:\n                    f.write(str(line) + '\\n')\n                counter+=1",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "list_my_email",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "list_my_email = []\ntemp_email = []\nproxy_username = 'leahtokerova'\nproxy_password = '8N465LTTX55F6GX2LDDIXV53'\nhostname = '12.198.49.27:32222'\nproxies = {\n    \"http\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname),\n    \"https\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname)\n}\ndef return_info_breanch():",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "temp_email",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "temp_email = []\nproxy_username = 'leahtokerova'\nproxy_password = '8N465LTTX55F6GX2LDDIXV53'\nhostname = '12.198.49.27:32222'\nproxies = {\n    \"http\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname),\n    \"https\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname)\n}\ndef return_info_breanch():\n    try:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "proxy_username",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "proxy_username = 'leahtokerova'\nproxy_password = '8N465LTTX55F6GX2LDDIXV53'\nhostname = '12.198.49.27:32222'\nproxies = {\n    \"http\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname),\n    \"https\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname)\n}\ndef return_info_breanch():\n    try:\n        with open('search_branch.json', 'r',encoding='utf-8') as f:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "proxy_password",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "proxy_password = '8N465LTTX55F6GX2LDDIXV53'\nhostname = '12.198.49.27:32222'\nproxies = {\n    \"http\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname),\n    \"https\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname)\n}\ndef return_info_breanch():\n    try:\n        with open('search_branch.json', 'r',encoding='utf-8') as f:\n            data_josn  = json.load(f)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "hostname",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "hostname = '12.198.49.27:32222'\nproxies = {\n    \"http\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname),\n    \"https\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname)\n}\ndef return_info_breanch():\n    try:\n        with open('search_branch.json', 'r',encoding='utf-8') as f:\n            data_josn  = json.load(f)\n        return data_josn    ",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "proxies",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "proxies = {\n    \"http\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname),\n    \"https\": \"http://{0}:{1}@{2}/\".format(proxy_username, proxy_password, hostname)\n}\ndef return_info_breanch():\n    try:\n        with open('search_branch.json', 'r',encoding='utf-8') as f:\n            data_josn  = json.load(f)\n        return data_josn    \n    except Exception as e:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "T = PrettyTable()\ninit()\ntimeout = 1\ndef get_timeout():\n    while True:\n        timeout = input(\"Timeout: \")\n        if timeout.isnumeric():\n            timeout = int(timeout)\n            if 0 < timeout <= 10:\n                return timeout",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "timeout",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "timeout = 1\ndef get_timeout():\n    while True:\n        timeout = input(\"Timeout: \")\n        if timeout.isnumeric():\n            timeout = int(timeout)\n            if 0 < timeout <= 10:\n                return timeout\n            else:\n                return False",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "GET_PASSWORD",
+        "kind": 6,
+        "importPath": "passwrod",
+        "description": "passwrod",
+        "peekOfCode": "class GET_PASSWORD():\n    def __init__(self, email):\n        self.email = email\n    def remove_ansi(self,text):\n        ansi_escape = re.compile(r'\\x1B(?:[@-Z\\\\-_]|\\[[0-?]*[ -/]*[@-~])')\n        return ansi_escape.sub('', text)    \n    def run(self):\n        try:\n            T = PrettyTable()\n            api = LeakCheckAPI()",
+        "detail": "passwrod",
+        "documentation": {}
+    }
+]

@@ -6,7 +6,7 @@
 ## Installation
 
 To install the current release of SNUSBASE COMBO, please follow of the method described below.
-<details>
+
 
 1. Clone the GitHub repository:
 
@@ -25,9 +25,11 @@ pip3 install -r requirements.txt
 ```
 
 2. Conigure settings
+<details>
   a) Add snussbase api in config.json
   b) Add leakchecker api in config.json
   b) Add leakchecker proxy in config.json
+</details>
 
 Finally!
 
@@ -39,6 +41,6 @@ or
 python.py main.py
 ```
 
-</details>
+
 
 

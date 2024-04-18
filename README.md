@@ -8,13 +8,13 @@
 To install the current release of SNUSBASE COMBO, please follow of the method described below.
 
 
-1. Clone the GitHub repository:
+## 1. Clone the GitHub repository:
 
 ```shell
 git clone https://github.com/tatjanatregub/SNUSSBASE.git
 ```
 
-2. Install dependencies
+## 2. Install dependencies
 
 ```shell
 pip install -r requirements.txt
@@ -24,7 +24,7 @@ or
 pip3 install -r requirements.txt
 ```
 
-2. Conigure settings
+## 3. Configure settings
 
   a) Add snussbase api in config.json
   

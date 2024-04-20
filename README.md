@@ -11,7 +11,7 @@ To install the current release of SNUSBASE COMBO, please follow of the method de
 ## 1. Clone the GitHub repository:
 
 ```shell
-git clone https://github.com/tatjanatregub/SNUSSBASE.git
+git clone https://github.com/VENOM-PROGRAMMING/SNUSSBASE.git
 ```
 
 ## 2. Install dependencies
